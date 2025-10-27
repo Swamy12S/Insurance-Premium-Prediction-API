@@ -23,3 +23,34 @@ insurance-premium-prediction-api/
 ├── .dockerignore
 ├── .gitignore
 └── README.md                  # This file
+
+
+## 🧩 API Endpoints
+
+### **1️⃣ GET /**
+Human-readable API welcome message.
+```json
+{"message": "Insurance Premium Prediction API"}
+
+3️⃣ POST /predict
+Predicts the insurance premium based on user inputs.
+
+##🐳 Docker Setup
+🧱 Build the Docker Image
+docker build -t lavudyaswamy/insurance_premium_prediction_api .
+
+##☁️ AWS Deployment
+
+##✅ Features
+
+🚀 Fast and scalable API built on FastAPI
+🤖 Integrated ML model for premium prediction
+🧾 Input validation with Pydantic schemas
+🐳 Fully containerized with Docker
+☁️ Easily deployable on AWS Cloud
+
+Lavudya Swamy
+🐙 GitHub: https://github.com/lavudyaswamy
+
+
+
