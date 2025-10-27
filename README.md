@@ -6,18 +6,20 @@ It predicts an individual's **insurance premium amount** based on key demographi
 
 ---
 
-## 🏗️ Project Structure
+## 📁 Project structure
+```text
 insurance-premium-prediction-api/
 │
-├── app.py                     # Main FastAPI application
+├── app.py                     # Main FastAPI application (endpoints)
 ├── config/                    # Configuration files (if any)
-├── model/                     # Contains trained ML model and prediction logic
+├── model/                     # Model code + serialized model
 │   ├── predict.py
 │   └── model.pkl
-├── schema/                    # Request and Response Pydantic models
+├── schema/                    # Pydantic request/response models
 │   ├── user_input.py
 │   └── prediction_response.py
 ├── requirements.txt           # Python dependencies
 ├── Dockerfile                 # Docker configuration
-├── .gitignore                 # Files/folders to ignore in Git
-└── README.md                  # Project documentation
+├── .dockerignore
+├── .gitignore
+└── README.md                  # This file
