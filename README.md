@@ -35,11 +35,11 @@ Human-readable API welcome message.
 ## POST /predict
 Predicts the insurance premium based on user inputs.
 
-## Docker Setup
+## 🐳 Docker Setup
 🧱 Build the Docker Image
 docker build -t lavudyaswamy/insurance_premium_prediction_api .
 
-## AWS Deployment
+## ☁️AWS Deployment
 
 ## Features
 
